@@ -1,8 +1,8 @@
 // Offline cache for Pocket Golf 3D. Bump VERSION when shipping updates.
-const VERSION = "pg3d-v6";
+const VERSION = "pg3d-v7";
 const ASSETS = [
   "./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png",
-  "./courses/coastal.json", "./courses/sunshine.json", "./courses/cliffs.json", "./courses/pelican.json",
+  "./courses/coastal.json", "./courses/sunshine.json", "./courses/cliffs.json", "./courses/pelican.json", "./courses/maleny.json",
 ];
 
 self.addEventListener("install", (e) => {
