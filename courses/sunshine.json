@@ -1,0 +1,80 @@
+{
+  "name": "Sunshine Links",
+  "tagline": "Classic parkland, water carries, big greens",
+  "theme": { "trees": "mix", "sunElevation": 38, "sunAzimuth": 150, "hills": 1 },
+  "holes": [
+    {
+      "par": 4, "name": "Opener", "tee": { "x": 0, "z": 5 }, "pin": { "x": 86, "z": 358 },
+      "path": [[0, 5], [0, 175], [16, 255], [52, 318], [86, 358]], "fwHalf": 12,
+      "green": { "x": 86, "z": 358, "r": 13, "tx": -0.03, "tz": 0.02,
+        "mounds": [{ "dx": 3, "dz": -3, "amp": 0.8, "spread": 34 }, { "dx": -4, "dz": 4, "amp": -0.6, "spread": 28 }] },
+      "water": [{ "x": 62, "z": 355, "rx": 6, "rz": 7 }], "cross": [],
+      "bunkers": [{ "x": 36, "z": 246, "rx": 7, "rz": 9 }, { "x": 101, "z": 345, "rx": 5.5, "rz": 6 }, { "x": 98, "z": 372, "rx": 6, "rz": 5 }]
+    },
+    {
+      "par": 3, "name": "Short carry", "tee": { "x": 0, "z": 5 }, "pin": { "x": 0, "z": 150 },
+      "dogAmp": 0, "dogZ0": 1, "dogZ1": 2, "fwHalf": 8,
+      "green": { "x": 0, "z": 150, "r": 12, "tx": 0.025, "tz": -0.03,
+        "mounds": [{ "dx": 0, "dz": 0, "amp": 0.7, "spread": 42 }, { "dx": 4, "dz": 3, "amp": -0.4, "spread": 24 }] },
+      "water": [], "cross": [{ "z0": 55, "z1": 120, "xmin": -32, "xmax": 32 }],
+      "bunkers": [{ "x": -13, "z": 140, "rx": 6, "rz": 6 }, { "x": 13, "z": 141, "rx": 6, "rz": 6 }]
+    },
+    {
+      "par": 5, "name": "Long par 5", "tee": { "x": 0, "z": 5 }, "pin": { "x": 8, "z": 510 },
+      "dogAmp": 0, "dogZ0": 1, "dogZ1": 2, "fwHalf": 11,
+      "green": { "x": 8, "z": 510, "r": 15, "tx": -0.035, "tz": 0.022,
+        "mounds": [{ "dx": 4, "dz": -3, "amp": 0.9, "spread": 36 }, { "dx": -5, "dz": 4, "amp": -0.6, "spread": 30 }] },
+      "water": [{ "x": -6, "z": 480, "rx": 12, "rz": 14 }], "cross": [{ "z0": 300, "z1": 316, "xmin": -45, "xmax": 45 }],
+      "bunkers": [{ "x": 12, "z": 175, "rx": 7, "rz": 10 }, { "x": -12, "z": 410, "rx": 8, "rz": 10 },
+        { "x": 18, "z": 466, "rx": 7, "rz": 9 }, { "x": 27, "z": 500, "rx": 6, "rz": 7 }]
+    },
+    {
+      "par": 4, "name": "Dogleg left", "tee": { "x": 0, "z": 5 }, "pin": { "x": -86, "z": 358 },
+      "path": [[0, 5], [0, 175], [-16, 255], [-52, 318], [-86, 358]], "fwHalf": 12,
+      "green": { "x": -86, "z": 358, "r": 13, "tx": 0.03, "tz": 0.02,
+        "mounds": [{ "dx": -3, "dz": -3, "amp": 0.8, "spread": 34 }, { "dx": 4, "dz": 4, "amp": -0.6, "spread": 28 }] },
+      "water": [{ "x": -62, "z": 355, "rx": 6, "rz": 7 }], "cross": [],
+      "bunkers": [{ "x": -36, "z": 246, "rx": 7, "rz": 9 }, { "x": -101, "z": 345, "rx": 5.5, "rz": 6 }, { "x": -98, "z": 372, "rx": 6, "rz": 5 }]
+    },
+    {
+      "par": 3, "name": "Island look", "tee": { "x": 0, "z": 5 }, "pin": { "x": 0, "z": 160 },
+      "dogAmp": 0, "dogZ0": 1, "dogZ1": 2, "fwHalf": 7,
+      "green": { "x": 0, "z": 160, "r": 12, "tx": 0.0, "tz": 0.0,
+        "mounds": [{ "dx": 0, "dz": 0, "amp": 0.9, "spread": 46 }, { "dx": -4, "dz": 3, "amp": -0.5, "spread": 26 }] },
+      "water": [], "cross": [{ "z0": 45, "z1": 138, "xmin": -26, "xmax": 26 }],
+      "bunkers": [{ "x": -16, "z": 160, "rx": 5, "rz": 7 }, { "x": 16, "z": 160, "rx": 5, "rz": 7 }]
+    },
+    {
+      "par": 4, "name": "Centre bunker", "tee": { "x": 0, "z": 5 }, "pin": { "x": 2, "z": 375 },
+      "dogAmp": 0, "dogZ0": 1, "dogZ1": 2, "fwHalf": 12,
+      "green": { "x": 2, "z": 375, "r": 13, "tx": -0.02, "tz": 0.03,
+        "mounds": [{ "dx": 3, "dz": 3, "amp": 0.8, "spread": 34 }, { "dx": -4, "dz": -3, "amp": -0.6, "spread": 28 }] },
+      "water": [], "cross": [],
+      "bunkers": [{ "x": 0, "z": 235, "rx": 9, "rz": 12 }, { "x": -16, "z": 368, "rx": 6, "rz": 6 }, { "x": 19, "z": 368, "rx": 6, "rz": 6 }]
+    },
+    {
+      "par": 5, "name": "Sweeping right", "tee": { "x": 0, "z": 5 }, "pin": { "x": 14, "z": 515 },
+      "dogAmp": 13, "dogZ0": 200, "dogZ1": 360, "fwHalf": 11,
+      "green": { "x": 14, "z": 515, "r": 15, "tx": -0.03, "tz": 0.02,
+        "mounds": [{ "dx": 5, "dz": -4, "amp": 1.0, "spread": 38 }, { "dx": -5, "dz": 4, "amp": -0.6, "spread": 30 }] },
+      "water": [{ "x": 0, "z": 486, "rx": 9, "rz": 11 }], "cross": [{ "z0": 320, "z1": 336, "xmin": -45, "xmax": 45 }],
+      "bunkers": [{ "x": 14, "z": 190, "rx": 7, "rz": 10 }, { "x": 33, "z": 505, "rx": 6, "rz": 7 }]
+    },
+    {
+      "par": 3, "name": "Long over water", "tee": { "x": 0, "z": 5 }, "pin": { "x": -6, "z": 190 },
+      "dogAmp": 0, "dogZ0": 1, "dogZ1": 2, "fwHalf": 8,
+      "green": { "x": -6, "z": 190, "r": 13, "tx": 0.02, "tz": -0.02,
+        "mounds": [{ "dx": 0, "dz": 0, "amp": 0.7, "spread": 44 }] },
+      "water": [{ "x": -4, "z": 145, "rx": 20, "rz": 22 }], "cross": [],
+      "bunkers": [{ "x": 14, "z": 186, "rx": 6, "rz": 7 }]
+    },
+    {
+      "par": 4, "name": "Home — water left", "tee": { "x": 0, "z": 5 }, "pin": { "x": 10, "z": 410 },
+      "dogAmp": 9, "dogZ0": 200, "dogZ1": 320, "fwHalf": 11,
+      "green": { "x": 10, "z": 410, "r": 14, "tx": -0.03, "tz": 0.025,
+        "mounds": [{ "dx": 4, "dz": -3, "amp": 0.9, "spread": 36 }, { "dx": -4, "dz": 4, "amp": -0.6, "spread": 28 }] },
+      "water": [{ "x": -12, "z": 392, "rx": 8, "rz": 18 }], "cross": [],
+      "bunkers": [{ "x": 30, "z": 402, "rx": 6, "rz": 7 }, { "x": 8, "z": 250, "rx": 8, "rz": 10 }]
+    }
+  ]
+}
